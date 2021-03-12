@@ -1,0 +1,38 @@
+@mixin font-header {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 1.8px;
+    color: $color-white;
+}
+
+@mixin font-subheader {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 48px;
+    color: $color-white;
+}
+
+@mixin nav {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $color-white;
+}
+
+
+
+$font-roboto:'Roboto',
+sans-serif;
+
+
+
+$color-white: #FFFFFF;
+$color-grey: #858585;
